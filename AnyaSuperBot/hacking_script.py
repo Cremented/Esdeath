@@ -1,6 +1,6 @@
 PM_START_TEXT = """
-チ娘 "ᴡᴀᴋᴜ ᴡᴀᴋᴜ" {} - ꜱᴀɴ!
-ʏᴏꜱʜᴀ!! ᴍʏꜱᴇʟꜰ ᴀɴʏᴀ - ꜰᴏɢᴇʀ ꜰᴀᴍɪʟʏ ᴄᴜᴛᴇꜱᴛ ᴘᴇʀꜱᴏɴ ʜᴇʀᴇ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+パワー "ʜᴇʏ ᴛʜᴇʀᴇ" {} - ꜱᴀɴ!
+ᴍʏꜱᴇʟꜰ ɢᴇɴᴇʀᴀʟ ᴇsᴅᴇᴀᴛʜ ᴀʟᴡᴀʏs ʀᴇᴀᴅʏ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴡɪᴛʜ ᴘᴏᴡᴇʀ.
 
 ❍ ᴛᴇꜱᴛ ᴠᴇʀꜱɪᴏɴ : 3.10.6
 ❍ ꜱᴜʙᴊᴇᴄᴛ ᴜᴘᴛɪᴍᴇ : `{}`
@@ -9,7 +9,7 @@ PM_START_TEXT = """
 """
 
 
-PM_START_PIC = "https://telegra.ph/file/1242331445d6fecba4237.png"
+PM_START_PIC = "https://telegra.ph/file/ced225d0d9b972f0c852a.jpg"
 
 
 ## Don't Remove That Credits in PM_START_TEXT if yoy removed your app will be crashed.
