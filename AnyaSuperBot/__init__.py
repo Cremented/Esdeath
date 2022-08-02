@@ -38,15 +38,15 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get('ENV', True))
 
 if ENV:
-    TOKEN = os.environ.get('TOKEN', "5413491390:AAHRvlHSMWBmsZEC86bbVJF5H53WkXs_r1U")
+    TOKEN = os.environ.get('TOKEN')
 
     try:
         OWNER_ID = int(os.environ.get('OWNER_ID', 5531584953))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
-    JOIN_LOGGER = os.environ.get('JOIN_LOGGER', -1001703672408)
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "XtheAnonymous")
+    JOIN_LOGGER = os.environ.get('JOIN_LOGGER')
+    OWNER_USERNAME = os.environ.get("OWNER_USERNAME")
 
     try:
         DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
@@ -83,8 +83,8 @@ if ENV:
     CERT_PATH = os.environ.get("CERT_PATH")
     API_ID = os.environ.get('API_ID', 4665778)
     API_HASH = os.environ.get('API_HASH', "10e3ed833b0d09699973420d45359409")
-    DB_URI = os.environ.get('db_uri','postgres://rzgeatqi:CLn2r-lMpIzyKF9gRv5oPPHwLZRL1U-e@suleiman.db.elephantsql.com/rzgeatqi')
-    SQLALCHEMY_DATABASE_URI = os.environ.get('postgres://rzgeatqi:CLn2r-lMpIzyKF9gRv5oPPHwLZRL1U-e@suleiman.db.elephantsql.com/rzgeatqi')
+    DB_URI = os.environ.get("DB_URI")
+    SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')
     DONATION_LINK = os.environ.get('DONATION_LINK')
     LOAD = os.environ.get("LOAD", "").split()
     NO_LOAD = os.environ.get("NO_LOAD", "rss").split()
@@ -112,9 +112,9 @@ if ENV:
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
     BOT_NAME = os.environ.get("BOT_NAME", 'Anya') # Name Of your Bot.4
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "AnyaSuperbot") # Bot Username
+    BOT_USERNAME = os.environ.get("BOT_USERNAME") # Bot Username
     OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", "") # From:- https://openweathermap.org/api
-    LOG_GROUP_ID = os.environ.get('LOG_GROUP_ID', '-1001733372611')
+    LOG_GROUP_ID = os.environ.get('LOG_GROUP_ID')
     BOT_ID = 5413491390
     STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', True))
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", 'mongodb+srv://ok:lol@cluster1.udhzs7r.mongodb.net/?retryWrites=true&w=majority')
