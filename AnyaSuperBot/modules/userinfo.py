@@ -440,7 +440,7 @@ def set_about_me(update: Update, context: CallbackContext):
 def stats(update, context):
     uptime = datetime.datetime.fromtimestamp(boot_time()).strftime("%Y-%m-%d %H:%M:%S")
     botuptime = get_readable_time((time.time() - StartTime))
-    status = "*╒═══「 Anya 剣 Statistics 」*\n\n"
+    status = "*╒═══「 Esdeath パワー | Statistics 」*\n\n"
     status += "*➢ System Start time:* " + str(uptime) + "\n"
     status += "*➢ Uptime:* " + str(botuptime) + "\n"
     try:
@@ -449,7 +449,7 @@ def stats(update, context):
             status
             + "\n*Saber 剣 Statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[剣 Support](https://t.me/{SUPPORT_CHAT}) | [剣 Updates](https://t.me/TeamNexusX)\n\n"
+            + f"\n\n[パワー Support](https://t.me/{SUPPORT_CHAT}) | [パワー Updates](https://t.me/AztecSupport)\n\n"
             + "\n╘══「 By [The Aogiri](https://t.me/AogiriNetwork) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -470,9 +470,9 @@ def stats(update, context):
                         "\n*Saber 剣 Statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n [剣 Support](https://t.me/{SUPPORT_CHAT}) | [剣 Updates](https://t.me/TeamNexusX)\n\n"
+                    + f"\n\n [パワー Support](https://t.me/{SUPPORT_CHAT}) | [パワー Updates](https://t.me/TeamNexusX)\n\n"
                 )
-                + "╘══「 By [The Aogiri](https://t.me/AogiriNetwork) 」\n"
+                + "╘══「 By [パワー Aogiri](https://t.me/AogiriNetwork) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
